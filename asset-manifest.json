@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/meggouri_portfolio/static/css/main.14f7a88f.chunk.css",
+    "main.js": "/meggouri_portfolio/static/js/main.570ee113.chunk.js",
+    "main.js.map": "/meggouri_portfolio/static/js/main.570ee113.chunk.js.map",
+    "runtime-main.js": "/meggouri_portfolio/static/js/runtime-main.97e4a8e1.js",
+    "runtime-main.js.map": "/meggouri_portfolio/static/js/runtime-main.97e4a8e1.js.map",
+    "static/js/2.dcaef217.chunk.js": "/meggouri_portfolio/static/js/2.dcaef217.chunk.js",
+    "static/js/2.dcaef217.chunk.js.map": "/meggouri_portfolio/static/js/2.dcaef217.chunk.js.map",
+    "index.html": "/meggouri_portfolio/index.html",
+    "static/css/main.14f7a88f.chunk.css.map": "/meggouri_portfolio/static/css/main.14f7a88f.chunk.css.map",
+    "static/js/2.dcaef217.chunk.js.LICENSE.txt": "/meggouri_portfolio/static/js/2.dcaef217.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/meggouri_portfolio/static/media/Minecraft.cd123555.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97e4a8e1.js",
+    "static/js/2.dcaef217.chunk.js",
+    "static/css/main.14f7a88f.chunk.css",
+    "static/js/main.570ee113.chunk.js"
+  ]
+}

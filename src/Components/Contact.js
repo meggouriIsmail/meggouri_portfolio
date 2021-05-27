@@ -39,7 +39,7 @@ const Contact = () => {
                         <label htmlFor="" className="form__label1">message</label>
                     </div>
                     <button type="submit" value="Send" className="send-btn" >
-                        <img src="../assets/icons/paper_plane_28px.png" alt="Send" />
+                        <img src={`${process.env.PUBLIC_URL}/assets/icons/paper_plane_28px.png`} alt="Send" />
                     </button>
                 </form>
             </div>

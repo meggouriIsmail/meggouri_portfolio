@@ -7,7 +7,7 @@ const Header = () => {
         <section className="hero" id="about">
             <div className="info">
                 <h2 className="profile">🅼🅴🅶🅶🅾🆄🆁🅸 🅸🆂🅼🅰🅸🅻</h2>
-                <img src="../assets/images/alsoMee.jpeg" alt="avatar" className="avatar" />
+                <img src={`${process.env.PUBLIC_URL}/assets/images/alsoMee.jpeg`} alt="avatar" className="avatar" />
             </div>
             <NavBar />
             <Name />

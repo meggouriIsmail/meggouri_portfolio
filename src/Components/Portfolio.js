@@ -11,7 +11,7 @@ const Portfolio = () => {
                     products.map((prod) => {
                         return (
                             <div className="project" key={prod.id} >
-                                <img src={prod.img} className="img" alt={prod.name} />
+                                <img src={process.env.PUBLIC_URL + prod.img} className="img" alt={prod.name} />
                                 <a href={prod.url} target="_blank" rel="noreferrer">
                                     <div className="overlay">
                                         <div className="text">

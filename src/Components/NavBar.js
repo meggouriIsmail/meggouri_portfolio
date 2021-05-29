@@ -42,6 +42,9 @@ class NavBar extends React.Component {
                     <div className="nav-links">
                         <ul className="links">
                             <li className="link">
+                                <a href={`${process.env.PUBLIC_URL}/assets/images/MG-CV.pdf`} target="_blank" rel="noreferrer">Resume 📜</a>
+                            </li>
+                            <li className="link">
                                 <a href="#about">About</a>
                             </li>
                             <li className="link">

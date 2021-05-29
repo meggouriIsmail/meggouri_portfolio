@@ -36,15 +36,15 @@ a {
 }
 
 .hero {
-  height: 500px;
   width: auto;
 }
 
 .info {
   display: flex;
+  flex-direction: row;
   padding: 7rem 1rem 4rem 1rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -53,15 +53,18 @@ a {
   border-radius: 15px;
   width: 200px;
   height: 250px;
+  margin: 20px 0;
   box-shadow: 10px 10px 6px 0 #0000003b, -10px -10px 6px 0 #0000003b
 }
 
 .profile {
   z-index: 2;
   color: #FBFBFB;
-  text-align: center;
   padding-right: 10px;
-  padding-bottom: 40px;
+  width: 300px;
+  font-size: 24px;
+  line-height: 1.5;
+  height: 250px;
 }
 
 .name {
@@ -69,7 +72,7 @@ a {
   align-items: center;
   justify-content: center;
   height: 30px;
-  padding-bottom: 2rem;
+  margin-bottom: 10px;
 }
 
 .fullName {
@@ -235,7 +238,7 @@ ul {
 }
 
 .title {
-  padding: 3rem;
+  padding: 1rem;
   font-size: xx-large;
   text-align: center;
   color: #FBFBFB
@@ -539,6 +542,13 @@ footer {
   font-weight: 100;
   text-align: center;
   margin-bottom: 2em;
+}
+
+.social span {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  margin: 1em 0;
 }
 
 .social-media {

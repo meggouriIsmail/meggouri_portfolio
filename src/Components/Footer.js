@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="social">
-                <p>Connect socially with <span className="logo-footer"> Meggo </span></p>
+                <p>Connect socially with Meggo</p>
                 <div className="social-media">
                     <a href="https://ma.linkedin.com/in/ismail-meggouri-7437a71b4" target="_blank" rel="noreferrer">
                         <img src={`${process.env.PUBLIC_URL}/assets/icons/linkedin_64px.png`} className="fa" alt="linkedin" />
@@ -18,6 +18,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <img src={`${process.env.PUBLIC_URL}/assets/icons/Portfolio_Logo_sm.png`} className="footer-logo" alt="Meggo" />
+                <span>(+212)696110578</span>
             </div>
             <div className="nav-bottom">
                 <h3 className="copy-right">Copyright &copy; <span className="logo-footer"> Meggo </span>

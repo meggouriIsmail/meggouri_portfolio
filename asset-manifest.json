@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meggouri_portfolio/static/css/main.79ae70d0.chunk.css",
+    "main.css": "/meggouri_portfolio/static/css/main.d8bfca70.chunk.css",
     "main.js": "/meggouri_portfolio/static/js/main.a7404532.chunk.js",
     "main.js.map": "/meggouri_portfolio/static/js/main.a7404532.chunk.js.map",
     "runtime-main.js": "/meggouri_portfolio/static/js/runtime-main.97e4a8e1.js",
@@ -8,14 +8,14 @@
     "static/js/2.e3fe659c.chunk.js": "/meggouri_portfolio/static/js/2.e3fe659c.chunk.js",
     "static/js/2.e3fe659c.chunk.js.map": "/meggouri_portfolio/static/js/2.e3fe659c.chunk.js.map",
     "index.html": "/meggouri_portfolio/index.html",
-    "static/css/main.79ae70d0.chunk.css.map": "/meggouri_portfolio/static/css/main.79ae70d0.chunk.css.map",
+    "static/css/main.d8bfca70.chunk.css.map": "/meggouri_portfolio/static/css/main.d8bfca70.chunk.css.map",
     "static/js/2.e3fe659c.chunk.js.LICENSE.txt": "/meggouri_portfolio/static/js/2.e3fe659c.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/meggouri_portfolio/static/media/Minecraft.cd123555.ttf"
+    "static/media/style.css": "/meggouri_portfolio/static/media/Poppins-Black.eacee5bb.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.97e4a8e1.js",
     "static/js/2.e3fe659c.chunk.js",
-    "static/css/main.79ae70d0.chunk.css",
+    "static/css/main.d8bfca70.chunk.css",
     "static/js/main.a7404532.chunk.js"
   ]
 }

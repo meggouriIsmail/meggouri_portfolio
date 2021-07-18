@@ -1,18 +1,19 @@
-import Contact from './Components/Contact';
-import Education from './Components/Education';
-import Header from './Components/Header';
-import Portfolio from './Components/Portfolio';
-import Footer from './Components/Footer';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Delete from './Components/Delete';
+import Home from './Components/Home';
+import ProjectsCRUD from './Components/ProjectsCRUD';
+import Update from './Components/Update';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Education />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+        <Route exact path={`${process.env.PUBLIC_URL}/login`} component={ProjectsCRUD} />
+        <Route path={`${process.env.PUBLIC_URL}/delete/:id`} component={Delete} />
+        <Route path={`${process.env.PUBLIC_URL}/update/:id`} component={Update} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

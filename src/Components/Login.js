@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 
-function Login({ setToken, setData }) {
+function Login() {
 
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
@@ -12,8 +12,8 @@ function Login({ setToken, setData }) {
             email: email,
             password: password
         }).then((response) => {
-            setToken(response.data.token);
-            setData(response.data.body);
+            localStorage.setItem("token", response.data.token);
+            window.location.replace(`${process.env.PUBLIC_URL}/dashboard`);
         });
     }
 

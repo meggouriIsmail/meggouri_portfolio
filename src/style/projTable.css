@@ -91,9 +91,9 @@ table {
       content: "";
     }
   }
-  body {
-    font: 400 14px "Calibri", "Arial";
-    padding: 20px;
+  .body {
+    font: 400 18px "Calibri", "Arial";
+    padding: 40px;
   }
   
   .btns  {

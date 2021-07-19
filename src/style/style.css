@@ -3,6 +3,12 @@
   padding: 0
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src : url(Poppins-Black.ttf);
+  font-style: normal;
+}
+
 body,
 html {
   background: #000000;
@@ -24,12 +30,7 @@ html {
 /*--------------------------------- PROJECTS --------------------------------- */
 /*--------------------------------- CONTACT --------------------------------- */
 /*--------------------------------- FOOTER --------------------------------- */
-
-@font-face {
-  font-family: 'Poppins';
-  src : url(Poppins-Black.ttf);
-  font-style: normal;
-}
+/*--------------------------------- DELETE AND UPDATE PAGES --------------------------------- */
 
 a {
   text-decoration: none
@@ -588,4 +589,70 @@ footer {
 .logo-footer {
   text-align: center;
   font-family: 'Poppins';
+}
+/* DELETE AND UPDATE PAGES */
+.img-del-upd {
+  height: 200px;
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 0 20px 0 #ececec33;
+  margin: auto;
+  background-color: #fff;
+  text-align: center;
+  font-family: arial;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-body {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.btn-log, .btn-Add {
+  border: none;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #e20000;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  font-size: 18px;
+  margin: 20px;
+}
+.btns-display {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-Add {
+  background-color: #00e2cf;
+}
+
+.btn-cancel, .btn-del {
+  border: none;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #e20000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+.btn-cancel {
+  background-color: #00d2ee;
 }

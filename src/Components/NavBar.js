@@ -42,16 +42,16 @@ class NavBar extends React.Component {
                     <div className="nav-links">
                         <ul className="links">
                             <li className="link">
-                                <a href={`${process.env.PUBLIC_URL}/assets/images/MG-CV.pdf`} target="_blank" rel="noreferrer">Resume 📜</a>
+                                <a href={`${process.env.PUBLIC_URL}/assets/images/MG-CV.pdf`} className="target-link" target="_blank" rel="noreferrer">Resume 📜</a>
                             </li>
                             <li className="link">
-                                <a href="#about">About</a>
+                                <a href="#about" className="target-link">About</a>
                             </li>
                             <li className="link">
-                                <a href="#portfolio">Portfolio</a>
+                                <a href="#portfolio" className="target-link">Portfolio</a>
                             </li>
                             <li className="link">
-                                <a href="#contact">Contact</a>
+                                <a href="#contact" className="target-link">Contact</a>
                             </li>
                         </ul>
                     </div>

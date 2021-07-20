@@ -21,9 +21,8 @@ const Delete = ({ match, history }) => {
     }, [match.params.id]);
 
     function DeleteProject() {
-        axios.delete(`http://localhost:8888/project/${match.params.id}`).then((res => {
-            console.log(res);
-        }))
+        axios.delete(`http://localhost:8888/project/${match.params.id}`).then().catch(err => console.error(err));
+        history.push(`${process.env.PUBLIC_URL}/dashboard`);
     }
 
     if (!token) {

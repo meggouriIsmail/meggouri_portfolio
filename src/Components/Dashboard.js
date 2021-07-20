@@ -30,7 +30,9 @@ const Dashboard = ({ history }) => {
         return (
             <div className="body">
                 <div className="btns-display">
-                    <button className="btn-Add" onClick={handleLogout}>Add Project</button>
+                    <Link to={`${process.env.PUBLIC_URL}/add`}>
+                        <button className="btn-Add" >Add Project</button>
+                    </Link>
                     <button className="btn-log" onClick={handleLogout}>Logout</button>
                 </div>
                 <table>

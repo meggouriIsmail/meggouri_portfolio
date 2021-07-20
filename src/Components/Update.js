@@ -20,11 +20,26 @@ const Update = ({ match, history }) => {
         });
     }, [match.params.id]);
 
+    function DeleteProject() {
+        axios.delete(`http://localhost:8888/project/${match.params.id}`).then((res => {
+            console.log(res);
+        }))
+    }
+
     if (!token) {
         return <Login />;
     } else {
         return (
-            <div style={{ height: '300px', background: 'azure', width: '500px' }}>update page {data[0].id}</div>
+            <div className="card">
+                <div className="card-body">
+                    <img src={process.env.PUBLIC_URL + data[0].img} alt={data[0].img} style={{ width: '100%' }} />
+                    <h1>{data[0].name}</h1>
+                    <p className="title-card">{data[0].techs}</p>
+                    <p style={{ padding: '0 10px 50px 10px' }}>{data[0].url}</p>
+                </div>
+                <button className="btn-del" onClick={DeleteProject}>Delete</button>
+                <button className="btn-cancel" onClick={() => { history.push(`${process.env.PUBLIC_URL}/dashboard`) }}>Cancel</button>
+            </div>
         );
     }
 }

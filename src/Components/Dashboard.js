@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Login from './Login';
 
-const ProjectsCRUD = ({ history }) => {
+const Dashboard = ({ history }) => {
 
     const [token, setToken] = useState();
     const [data, setData] = useState([]);
@@ -75,4 +75,4 @@ const ProjectsCRUD = ({ history }) => {
     }
 }
 
-export default ProjectsCRUD;
+export default Dashboard;

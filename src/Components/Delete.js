@@ -34,7 +34,7 @@ const Delete = ({ match, history }) => {
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + data[0].img} alt={data[0].img} style={{ width: '100%' }} />
                     <h1>{data[0].name}</h1>
-                    <p class="title">{data[0].techs}</p>
+                    <p className="title-card">{data[0].techs}</p>
                     <p style={{ padding: '0 10px 50px 10px' }}>{data[0].url}</p>
                 </div>
                 <button className="btn-del" onClick={DeleteProject}>Delete</button>

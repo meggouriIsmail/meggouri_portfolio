@@ -379,7 +379,7 @@ ul {
   padding-bottom: 5rem
 }
 
-form {
+.form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -514,7 +514,7 @@ input:focus + .form__label{
 
 .send-btn  {
   align-self: flex-start;
-  margin: 1rem 0;
+  margin: 1rem 1rem 0 0;
   padding: .25rem 1.7rem;
   background: transparent;
   border: solid .2px #fbfbfb4d;
@@ -592,7 +592,7 @@ footer {
   text-align: center;
   font-family: 'Poppins';
 }
-/* DELETE AND UPDATE PAGES */
+/* DELETE, ADD AND UPDATE PAGES */
 .img-del-upd {
   height: 200px;
   width: 200px;
@@ -658,4 +658,12 @@ footer {
 }
 .btn-cancel {
   background-color: #00d2ee;
+}
+
+.from-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 3rem
 }

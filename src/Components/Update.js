@@ -37,8 +37,12 @@ const Update = ({ match, history }) => {
                     <p className="title-card">{data[0].techs}</p>
                     <p style={{ padding: '0 10px 50px 10px' }}>{data[0].url}</p>
                 </div>
-                <button className="btn-del" onClick={DeleteProject}>Delete</button>
-                <button className="btn-cancel" onClick={() => { history.push(`${process.env.PUBLIC_URL}/dashboard`) }}>Cancel</button>
+                <button className="btn-del" onClick={DeleteProject}>
+                    <img src={`${process.env.PUBLIC_URL}/assets/icons/update_data_28px.png`} alt="Send" />
+                </button>
+                <button className="btn-cancel" onClick={() => { history.push(`${process.env.PUBLIC_URL}/dashboard`) }}>
+                    <img src={`${process.env.PUBLIC_URL}/assets/icons/cancel_28px.png`} alt="Send" />
+                </button>
             </div>
         );
     }

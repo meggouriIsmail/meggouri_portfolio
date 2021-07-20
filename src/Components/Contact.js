@@ -21,7 +21,7 @@ const Contact = () => {
         <section className="form-section" id="contact">
             <h1 className="title">Contact Me</h1>
             <div className="form-bloc">
-                <form onSubmit={sendEmail}>
+                <form onSubmit={sendEmail} className="form">
                     <div className="contact-info">
                         <input type="text" className="form__input" placeholder=" " name="name" />
                         <label htmlFor="" className="form__label">your name</label>

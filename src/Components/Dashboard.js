@@ -11,7 +11,7 @@ const Dashboard = ({ history }) => {
 
     const handleLogout = () => {
         localStorage.removeItem("token");
-        history.push(`${process.env.PUBLIC_URL}/login`);
+        window.location.replace(`${process.env.PUBLIC_URL}/login`);
     }
 
     useEffect(() => {

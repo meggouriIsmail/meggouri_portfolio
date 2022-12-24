@@ -276,15 +276,15 @@ ul {
 }
 
 .ista-bloc p {
-  margin-top: 5px;
   padding: 7px;
-  font-size: large
+  font-size: large;
+  text-align: center;
 }
 
 .bac-bloc p {
   margin-top: 10px;
   padding: 5px;
-  font-size: larger
+  font-size: larger;
 }
 
 /* PROJECTS */

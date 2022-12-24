@@ -9,12 +9,9 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-        e.target.reset();
+            .then()
+            .catch();
+        window.location.reload(false);
     }
 
     return (

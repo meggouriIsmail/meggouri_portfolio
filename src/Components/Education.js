@@ -10,8 +10,8 @@ const Education = () => {
                 </div>
                 <div className="ista-bloc">
                     <img src={`${process.env.PUBLIC_URL}/assets/icons/certificate_96px.png`} alt="diploma" />
-                    <p>CS Deplomat</p>
-                    <p>2019 / 2021</p>
+                    <p>Bachlore degree in CS</p>
+                    <p>2019 / 2022</p>
                 </div>
             </div>
         </section>

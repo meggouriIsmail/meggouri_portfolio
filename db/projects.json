@@ -9,7 +9,7 @@
     {
         "id":2,
         "img":"/assets/images/movieApp.jpeg",
-        "url":"https://the-smily-movie-app.herokuapp.com",
+        "url":"https://smily-movie.onrender.com",
         "name":"Movie Website",
         "techs":"Javascripy / NodeJs"
     },

@@ -1,7 +1,7 @@
 {
   "name": "meggo_portfolio",
-  "version": "0.1.1",
-  "homepage": "https://meggouriismail.github.io/meggouri_portfolio/",
+  "version": "0.1.2",
+  "homepage": "https://me.swayli.tech",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",

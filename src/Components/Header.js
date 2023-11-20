@@ -12,7 +12,7 @@ const Header = () => {
                     An ambitious Moroccan programmer.
                     I love to communicate with people through my work.
                 </p>
-                <img src={`${process.env.PUBLIC_URL}/assets/images/alsoMee.jpeg`} alt="avatar" className="avatar" />
+                <img src={`${process.env.PUBLIC_URL}/assets/images/pic.jpg`} alt="avatar" className="avatar" />
             </div>
             <NavBar />
             <Name />

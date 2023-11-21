@@ -2,7 +2,7 @@
     {
         "id":1,
         "img":"/assets/images/weathApp.jpeg",
-        "url":"https://meggouriismail.github.io/Weathering_Me/",
+        "url":"https://weather.swayli.tech",
         "name":"Weather Website",
         "techs":"React / NodeJs"
     },
@@ -30,7 +30,7 @@
     {
         "id":5,
         "img":"/assets/images/ecommerce.jpeg",
-        "url":"https://meggouriismail.github.io/ecommerce/",
+        "url":"https://ecom.swayli.tech",
         "name":"Ecommerce Site",
         "techs":"React / NodeJs"
     },
